@@ -1,0 +1,44 @@
+@api = http://localhost:3000/student
+
+GET {{api}}s
+
+###
+GET {{api}}/1
+
+###
+GET {{api}}s/count
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "NUMCONTROL": "4",
+    "NOMBRE": "Description 1",
+    "APELLIDOP": "pending",
+    "APELLIDOM": "pending",
+    "CURP": "pending",
+    "GRADO": "pending",
+    "GRUPO": "pending",
+    "ESPECIALIDAD": "pending"
+
+}
+
+###
+DELETE {{api}}/123
+
+###
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+    "NUMCONTROL": "1",
+    "NOMBRE": "Description 1",
+    "APELLIDOP": "pending",
+    "APELLIDOM": "pending",
+    "CURP": "pending",
+    "GRADO": "pending",
+    "GRUPO": "pending",
+    "ESPECIALIDAD": "pending"
+
+}
