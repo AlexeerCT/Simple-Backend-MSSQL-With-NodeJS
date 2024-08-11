@@ -1,4 +1,4 @@
-# Sign Up & Log In app - React, NodeJS and SQL Server
+# Backend with routes app - NodeJS and SQL Server
 
 __If it works for you, give me a star! ⭐__
 
