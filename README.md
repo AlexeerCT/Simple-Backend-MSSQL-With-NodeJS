@@ -24,7 +24,6 @@ All String variables goes without "" or ''.
 DB_USER=<string>
 DB_PASSWORD=<string>
 DB_NAME=<string>
-DB_USERNAME_TABLE=<string>
 DB_SERVER=localhost
 ```
 
